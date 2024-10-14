@@ -12,6 +12,7 @@
 2. Go to the project's root folder and install all the dependencies: `yarn`
 3. Stay in the root folder and execute the prisma generate command: `yarn prisma generate`
 4. In the root folder, run the Docker database container: `docker-compose up`
+5. And finally, still at the root of the project, execute the migrations: `yarn prisma migrate dev --name init`
 
 ### How to Run the Project
 
