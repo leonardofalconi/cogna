@@ -1,4 +1,4 @@
-# Magic Mirror
+# Cogna
 
 ### Requirements
 
