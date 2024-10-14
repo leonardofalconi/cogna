@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    container_name: ${POSTGRES_CONTAINER_NAME}
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGDATA: ${POSTGRES_DATA}
+    volumes:
+      - ${POSTGRES_VOLUME}
+    ports:
+      - '5432:5432'
+    restart: unless-stopped
+volumes:
+  cogna:
+    external: true
