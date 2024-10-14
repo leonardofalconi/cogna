@@ -9,9 +9,9 @@
 ### Install
 
 1. Create a docker volume: `docker volume create cogna` and `docker volume ls` to confirm if was created
-2. Go to the project root folder and install all dependencies: `yarn`
-3. Keeping on root folder and execute prisma generate command: `yarn prisma generate`
-4. On root folder run docker database container: `docker-compose up`
+2. Go to the project's root folder and install all the dependencies: `yarn`
+3. Stay in the root folder and execute the prisma generate command: `yarn prisma generate`
+4. In the root folder, run the Docker database container: `docker-compose up`
 
 ### How to Run the Project
 
