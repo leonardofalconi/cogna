@@ -11,6 +11,8 @@ export class UsersController {
       const users = await this.usersService.findMany();
 
       return { data: users };
+
+      //Simple error handling
     } catch (e) {
       const error = e as Error;
 
